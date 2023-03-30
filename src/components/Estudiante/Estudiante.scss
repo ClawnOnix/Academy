@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 5px solid #0019fa;
+}
+
+.navbar h1 {
+  color: #0019fa;
+}
+
+.navbar .links {
+  margin-left: 10px;
+}
+
+.navbar a {
+  margin-left: 12px;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.navbar a:hover {
+  color:#0019fa
+}
+
+.content {
+  max-width: 300px;
+  margin-left: 170px;
+  padding-top: 40px;
+  float: left;
+}
+
+.sidebar {
+  max-width: 300px;
+  margin-right: 70px;
+  padding-top: 50px;
+  float: right;
+}
+
+.article {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar aside {
+  margin-left: 20px;
+}
+
+/* 
+Estilos para el select 
+.mi-select {
+  width: 200px; /* Ancho d
+  height: 30px; /* Altura del select 
+  padding: 5px; /* Espacio interno 
+  font-size: 16px; /* Tamaño de fuente 
+  color: #555; /* Color de texto 
+  background-color: #fff; /* Color de fondo 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath d='M0 3h10L58z'/%3E%3C/svg%3E"); /* Imagen de la flecha hacia abajo 
+  background-repeat: no-repeat; /* No se repite la imagen 
+  background-position: right 0 center; /* Posiciona la imagen a la derecha y centrada verticalmente 
+  -webkit-appearance: none; /* Oculta la apariencia nativa del select en navegadores webkit 
+  -moz-appearance: none; /* Oculta la apariencia nativa del select en navegadores gecko 
+  appearance: none; /* Oculta la apariencia nativa del select en otros navegadores 
+}
+
+/* Estilos para las opciones 
+.mi-select option {
+  background-color: #fff; /* Color de fondo 
+  color: #555; /* Color de texto 
+}
+
+/* Estilos para la opción seleccionada *
+.mi-select option:checked {
+  background-color: #ccc; /* Color de fondo 
+  color: #fff; /* Color de texto 
+}
+
+/* Cambiar el cursor a una mano al pasar por encima 
+.mi-select:hover {
+  cursor: pointer;
+}
+*/
